@@ -21,9 +21,7 @@ frontends:
 6. [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) for monorepo management
 7. [Rollup](https://rollupjs.org/guide/en/) for bundling
 
-
-
-### Folder Structure
+### Folder Structure (Monorepo)
 
 1. `apps` contains the frontends
 2. `packages` contains the shared components , utils and storybook preview
@@ -33,7 +31,6 @@ frontends:
 6. `packages/uicore` contains the shared components
 7. `packages/ui` storybook preview for the shared components
 
-
 ### How to run the project
 
 1. Clone the repo
@@ -41,11 +38,15 @@ frontends:
 3. Create firebase project and add the firebase config to the `.env` file
 4. Create firebase admin service account and copy the service account api keys to the `.env` file
 
-
 ## Design
 
-The designs are also available on figma [here](https://www.figma.com/file/pWFqRa1H6f02jekfxvEcYv/Untitled?type=design&node-id=0%3A1&t=hDTdffFAks96Cp84-1)
+The designs are also available on figma
+[here](https://www.figma.com/file/pWFqRa1H6f02jekfxvEcYv/Untitled?type=design&node-id=0%3A1&t=hDTdffFAks96Cp84-1)
 
-### Admin 
+### Admin
 
 ### Client
+
+```
+
+```
