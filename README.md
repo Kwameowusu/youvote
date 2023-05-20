@@ -44,7 +44,7 @@ frontends:
 
 ## Design
 
-The designs are also available on figma [here](https://www.figma.com/file/)
+The designs are also available on figma [here](https://www.figma.com/file/pWFqRa1H6f02jekfxvEcYv/Untitled?type=design&node-id=0%3A1&t=hDTdffFAks96Cp84-1)
 
 ### Admin 
 
