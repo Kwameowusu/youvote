@@ -13,7 +13,7 @@ frontends:
 
 ### Technologies used:
 
-1. (Vite React)[https://vitejs.dev/guide/#scaffolding-your-first-vite-project]
+1. (https://vitejs.dev/guide/#scaffolding-your-first-vite-project )[Vite React]
 2. (Nextjs api routes )[https://nextjs.org/docs/api-routes/introduction],
 3. (Storybook )[https://storybook.js.org/] for component development
 4. (Firebae)[https://firebase.google.com/] for authentication, database storage and file storage
