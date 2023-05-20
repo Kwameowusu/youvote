@@ -37,6 +37,7 @@ frontends:
 2. Run `yarn install` to install all dependencies
 3. Create firebase project and add the firebase config to the `.env` file
 4. Create firebase admin service account and copy the service account api keys to the `.env` file
+5. Write rules for the firestore database and storage. Prevent unauthorized access to the database and storage
 
 ## Design
 
