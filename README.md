@@ -17,5 +17,35 @@ frontends:
 2. [Nextjs api routes ](https://nextjs.org/docs/api-routes/introduction),
 3. [Storybook ](https://storybook.js.org/) for component development
 4. [Firebae](https://firebase.google.com/) for authentication, database storage and file storage
-5. [Vercel](https://vercel.com/( for hosting
+5. [Vercel](https://vercel.com/) for hosting
 6. [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) for monorepo management
+7. [Rollup](https://rollupjs.org/guide/en/) for bundling
+
+
+
+### Folder Structure
+
+1. `apps` contains the frontends
+2. `packages` contains the shared components , utils and storybook preview
+3. `apps/server` contains the firebase admin sdk server
+4. `apps/admin` contains the organization frontend (admin panel)
+5. `apps/client` contains the voter frontend
+6. `packages/uicore` contains the shared components
+7. `packages/ui` storybook preview for the shared components
+
+
+### How to run the project
+
+1. Clone the repo
+2. Run `yarn install` to install all dependencies
+3. Create firebase project and add the firebase config to the `.env` file
+4. Create firebase admin service account and copy the service account api keys to the `.env` file
+
+
+## Design
+
+The designs are also available on figma [here](https://www.figma.com/file/)
+
+### Admin 
+
+### Client
