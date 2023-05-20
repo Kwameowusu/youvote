@@ -39,6 +39,21 @@ frontends:
 4. Create firebase admin service account and copy the service account api keys to the `.env` file
 5. Write rules for the firestore database and storage. Prevent unauthorized access to the database and storage
 
+### Hosting on vercel
+
+1. Create a vercel account
+2. Create a project and link it to the github repo
+3. Add the firebase config to the vercel project environment variables
+4. Add the firebase admin service account api keys to the vercel project environment variables
+
+#### The command to build the project on vercel
+
+1. client `cd .. && yarn dp-cl`
+2. admin `cd .. && yarn dp-ad`
+3. ui `cd .. && yarn dp-ui`
+4. server `yarn build`, this server and doesnt need the ui componenet to be built on vercel so we wont build
+   the uicore directory.
+
 ## Design
 
 The designs are also available on figma
