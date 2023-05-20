@@ -1,0 +1,22 @@
+.root{
+  border-radius: calc(var(--yov-border-radius-lg) * 5);
+  padding: 12px 15px;
+  border: 1px solid var(--yov-success-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  max-width: max-content;
+  background-color: var(--yov-success-bg-color);
+}
+
+.elect{
+  font-size: var(--yov-font-size-14);
+  color: var(--yov-success-color);
+}
+
+.root input{
+  height: 14px;
+  width: 14px;
+  accent-color: var(--yov-success-color);
+}

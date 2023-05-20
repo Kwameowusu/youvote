@@ -1,0 +1,23 @@
+.root {
+  box-shadow: 0px 4px 11px 8px rgba(211, 211, 211, 0.25);
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  border-radius: var(--yov-border-radius-lg);
+  position: fixed;
+  bottom: 200px;
+  z-index: 100;
+  background-color: var(--yov-background-color1);
+  transition: all 0.4s ease-in-out;
+  pointer-events: auto;
+}
+
+.root button:nth-of-type(1) {
+  background-color: var(--yov-error-color);
+  color: var(--yov-light-text-color1);
+  border: 1px solid;
+}
+
+.root button:nth-of-type(1):active {
+  box-shadow: 0px 0px 0px 3px var(--yov-border-color1);
+}

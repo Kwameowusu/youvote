@@ -1,0 +1,44 @@
+.root {
+  background-color: transparent;
+  border-radius: var(--yov-border-radius-rd);
+  border: 3px solid rgba(128, 128, 128, 0.39);
+  border-top: 3px solid #c39900;
+  /* backdrop-filter: blur(6px) saturate(60); */
+  animation: spin 500ms linear infinite;
+  z-index: 4;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.small {
+  width: 20px;
+  height: 20px;
+}
+
+.medium {
+  width: 30px;
+  height: 30px;
+}
+
+.large {
+  width: 45px;
+  height: 45px;
+}

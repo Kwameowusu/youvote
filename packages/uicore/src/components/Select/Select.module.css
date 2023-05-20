@@ -1,0 +1,29 @@
+.root {
+  padding: 15px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid var(--yov-border-color2);
+  background-color: var(--yov-background-color1);
+  border-radius: var(--yov-border-radius-lg);
+  color: var(--yov-dark-text-color2);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.root:focus {
+  border: 1px solid var(--yov-accent-color);
+  box-shadow: 0px 0px 0px 3px var(--yov-border-color1);
+  -webkit-box-shadow: 0px 0px 0px 3px var(--yov-border-color1);
+  -moz-box-shadow: 0px 0px 0px 3px var(--yov-border-color1);
+}
+
+.root option {
+  color: var(--yov-dark-text-color1);
+  font-size: calc(var(--yov-font-size-10) * 3);
+  background-color: var(--yov-background-color1);
+}
+
+.isFullwidth {
+  width: 100%;
+}

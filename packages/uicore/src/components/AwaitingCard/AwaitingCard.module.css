@@ -1,0 +1,22 @@
+.root{
+  width: 100%;
+  border: 1px solid var(--yov-border-color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 300px;
+  border-radius: var(--yov-border-radius-lg);
+  position: relative;
+  overflow: hidden;
+  margin-top: 170px;
+}
+
+.text{
+  font-weight: bold;
+  font-size: calc(var(--yov-font-size-16) * 2);
+  color: var(--yov-accent-color);
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+}

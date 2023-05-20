@@ -1,0 +1,23 @@
+.root{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+  color: var(--yov-dark-text-color1);
+}
+
+.title{
+  width: 100%;
+  text-align: left;
+  font-size: calc(var(--yov-font-size-16));
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
