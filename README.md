@@ -61,8 +61,33 @@ The designs are also available on figma
 
 ### Admin
 
+1. Sign in page
+
+    ![Sign in page](./apps/admin/figma/ad-signin.png)
+2. Candidates and portfolio page
+
+    ![Candidates page](./apps/admin/figma/ad-candidateportfolio.png)
+3. Insights page
+
+    ![Insights page](./apps/admin/figma/ad-insight.png)
+4. Canidate list page
+
+    ![Candidate list page](./apps/admin/figma/ad-candidatelist.png)
+5. Settings page
+
+    ![Settings page](./apps/admin/figma/ad-settings.png)
+6. UpdateInfo page
+
+    ![UpdateInfo page](./apps/admin/figma/ad-updateInfo.png)
+
 ### Client
+1. Sign in page
 
-```
+    ![Sign in page](./apps/admin/figma/yv-signin.png)
 
-```
+2. Vote page
+  
+      ![Vote page](./apps/admin/figma/yv-vote.png)
+3. UpdateInfo page
+
+    ![UpdateInfo page](./apps/admin/figma/ad-updateInfo.png)
