@@ -1,0 +1,49 @@
+.root {
+  /* padding: 4px 8px; */
+  border-radius: var(--yov-border-radius-lg);
+  display: grid;
+  gap: 4px;
+  max-width: max-content;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+  pointer-events: auto;
+  justify-content: center;
+}
+
+.info {
+  /* border: 1.5px solid var(--yov-info-color); */
+  /* background-color: var(--yov-info-bg-color); */
+  /* color: var(--yov-info-color); */
+}
+
+/* .success {
+  border: 1.5px solid var(--yov-success-color);
+  background-color: var(--yov-success-bg-color);
+  color: var(--yov-success-color);
+} */
+
+/* .error {
+  border: 1.5px solid var(--yov-error-color);
+  background-color: var(--yov-error-bg-color);
+  color: var(--yov-error-color);
+} */
+
+.noteIcon {
+  font-size: calc(var(--yov-font-size-14) * 2.6);
+  display: flex;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.noteText {
+  font-size: calc(var(--yov-font-size-16) * 0.95);
+  margin-top: 8px;
+}
+
+.close {
+  font-size: calc(var(--yov-font-size-14) * 1.5);
+  display: grid;
+  place-content: center;
+  margin-right: 7px;
+}

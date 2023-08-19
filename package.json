@@ -1,0 +1,28 @@
+{
+	"name": "app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Kwameowusu <daarich470@gmail.com>",
+	"scripts": {
+		"sb": "yarn workspace ui run sb",
+		"cl": "yarn workspace client run dev",
+		"ad": "yarn workspace admin run dev",
+		"st": "yarn workspace site run dev",
+		"uc": "yarn workspace uicore run dev",
+		"cl:build": "yarn workspace client run build",
+		"ad:build": "yarn workspace admin run build",
+		"st:build": "yarn workspace site run build",
+		"sb:build": "yarn workspace ui run build-sb",
+		"uc:build": "yarn workspace uicore run build",
+		"dp-cl": "yarn uc:build && yarn cl:build",
+		"dp-ad": "yarn uc:build && yarn ad:build",
+		"dp-st": "yarn uc:build && yarn st:build",
+		"dp-sb": "yarn uc:build && yarn sb:build "
+	},
+	"license": "MIT",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"private": true
+}

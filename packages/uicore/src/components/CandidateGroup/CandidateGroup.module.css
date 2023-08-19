@@ -1,0 +1,33 @@
+.root {
+  padding: 35px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  color: var(--yov-dark-text-color1);
+}
+
+.heading {
+  font-size: var(--yov-font-size-16);
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.portfolio{
+  font-size: var(--yov-font-size-16);
+    font-weight: 500;
+}
+
+.elect {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
+

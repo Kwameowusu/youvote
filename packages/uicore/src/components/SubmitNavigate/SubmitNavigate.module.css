@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  max-width: min-content;
+  gap: 75px;
+  box-shadow: var(--yov-bottomnav-box-shadow);
+  backdrop-filter: blur(30px) saturate(60);
+  padding: 8px;
+  border-radius: var(--yov-border-radius-lg);
+  background-color: #ffffffeb;
+}
+
+.profileContainer {
+  border-radius: 50%;
+  text-decoration: none;
+  width: min-content;
+  height: min-content;
+}

@@ -1,0 +1,28 @@
+.root {
+  padding:  35px 10px 200px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--yov-dark-text-color1);
+  width: 100%;
+}
+
+.heading {
+  font-size: var(--yov-font-size-16);
+  font-weight: 700;
+}
+
+.wrapper {
+  display: grid;
+  gap: 50px;
+}
+
+.container {
+  display: grid;
+}
+
+.subHeading {
+  font-size: var(--yov-font-size-16);
+  font-weight: 500;
+
+}

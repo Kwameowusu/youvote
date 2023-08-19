@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--yov-dark-text-color1);
+  width: 100%;
+  padding: 15px;
+  border-radius: var(--yov-border-radius-lg);
+  border: 1px solid var(--yov-border-color2);
+  width: 90%;
+  position: absolute;
+  background: white;
+  top: 85px;
+  z-index: 10;
+  box-shadow: 0 4px 11px 8px hsla(0, 0%, 83%, .25);
+  pointer-events: auto;
+}

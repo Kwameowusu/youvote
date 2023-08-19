@@ -1,0 +1,43 @@
+.root {
+  border-radius: 200px;
+  background-color: #ffffffeb;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  box-shadow: var(--yov-bottomnav-box-shadow);
+  backdrop-filter: blur(30px) saturate(60);
+  max-width: min-content;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: calc(var(--yov-font-size-10) * 2.5);
+  color: var(--yov-dark-text-color1);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+
+}
+
+
+.icon:hover {
+  color: var(--yov-accent-color);
+}
+
+.profileContainer {
+  border-radius: 50%;
+  text-decoration: none;
+  width: min-content;
+  height: min-content;
+}

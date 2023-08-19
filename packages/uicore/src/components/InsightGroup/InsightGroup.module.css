@@ -1,0 +1,19 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.heading{
+  font-size: calc(var(--yov-font-size-16) );
+  font-weight: 700;
+  color: var(--yov-dark-text-color1);
+}
+
+.group{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}

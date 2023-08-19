@@ -1,0 +1,113 @@
+.root {
+  display: grid;
+  gap: 15px;
+  color: var(--yov-dark-text-color1);
+  width: 100%;
+}
+
+.heading {
+  font-size: var(--yov-font-size-16);
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 41% 50%;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: var(--yov-font-size-14);
+  padding-top: 5px;
+  color: var(--yov-dark-text-color1);
+}
+
+.electDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: px; */
+}
+
+.viewDetails {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.viewDetails:hover {
+  border: 1px solid var(--yov-border-color1);
+}
+
+
+/* Results */
+.resultsDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--yov-dark-text-color1);
+  font-size: var(--yov-font-size-16);
+}
+
+.percentage {
+  font-size: var(--yov-font-size-18);
+  font-weight: 600;
+  color: var(--yov-dark-text-color1);
+}
+
+.votes {
+  font-size: var(--yov-font-size-18);
+  font-weight: 600;
+  color: var(--yov-dark-text-color1);
+}
+
+/* Results Details */
+
+.resultsControls {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+
+.resultsControls button {
+
+  cursor: pointer;
+}
+
+/* Elect */
+.elect {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.elect button {
+  border-radius: var(--yov-border-radius-rd);
+  height: 40px;
+  width: 40px;
+  color: var(--yov-light-text-color1);
+  font-size: calc(var(--yov-font-size-10) * 2.7);
+  padding: 0;
+  display: grid;
+  place-content: center;
+}
+
+/* Update profile */
+.updatProfile {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 10px;
+  padding-left: 40px;
+}
